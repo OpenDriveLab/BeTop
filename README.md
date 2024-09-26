@@ -7,7 +7,9 @@ for Interactive Autonomous Driving </h1>
 </p>
 </div>
 
-> [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN&inst=8669986779262753491&oi=ao), [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=zh-CN&inst=8669986779262753491&oi=ao) and [Hongyang Li](https://scholar.google.com/citations?user=Hfrih1EAAAAJ&hl=zh-CN&inst=8669986779262753491&oi=ao)
+> - [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yu Qiao, Chen Lv and Hongyang Li
+> 
+> - If you have any questions, please feel free to contact: *Haochen Liu* ( haochen002@e.ntu.edu.sg )
 
 <!-- > 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> -->
 
@@ -41,3 +43,12 @@ The synergetic framework, *BeTopNet*, integrates topology reasoning with predict
 ## Citation
 
 If you find the project helpful for your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{liu2024betop,
+ title={Reasoning Multi-Agent Behavioral Topology for Interactive Autonomous Driving}, 
+ author={Haochen Liu and Li Chen and Yu Qiao and Chen Lv and Hongyang Li},
+ booktitle={NeurIPS},
+ year={2024}
+}
+```
