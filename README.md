@@ -1,14 +1,20 @@
 <h1 align="center"> BeTop: Reasoning Multi-Agent Behavioral Topology 
 for Interactive Autonomous Driving </h1> 
 
+<div align="center">
+ 
+[![arXiv](https://img.shields.io/badge/arXiv-2409.18031-479ee2.svg)](https://arxiv.org/abs/2409.18031)
+
+</div>
+
 <div id="top" align="center">
 <p align="center">
 <img src="assets/betop_teaser.png" width="1000px" >
 </p>
 </div>
 
-> - [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yu Qiao, Chen Lv and Hongyang Li
-> 
+> - [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yu Qiao, Chen Lv and Hongyang Li  
+> - [arXiv paper](https://arxiv.org/abs/2409.18031) | Slides TODO  
 > - If you have any questions, please feel free to contact: *Haochen Liu* ( haochen002@e.ntu.edu.sg )
 
 <!-- > 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> -->
