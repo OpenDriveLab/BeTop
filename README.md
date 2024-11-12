@@ -7,10 +7,6 @@ for Interactive Autonomous Driving </h1>
 
 </div>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0529523c63022b99605dd4c694a8c87cfdf22d2b
 <div id="top" align="center">
 <p align="center">
 <img src="assets/betop_teaser.png" width="1000px" >
