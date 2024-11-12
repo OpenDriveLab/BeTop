@@ -21,6 +21,8 @@ for Interactive Autonomous Driving </h1>
 
 ---
 
+**[2024-11]** Scenario Token released for ```Test14-Inter```. [Link](https://github.com/OpenDriveLab/BeTop/releases/download/nuplan/test14-inter.yaml)
+
 **[2024-11]** Prediction project released.
 
 Full code and checkpoints release is coming soon. Please stay tuned.
