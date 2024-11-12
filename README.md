@@ -76,8 +76,4 @@ If you find the project helpful for your research, please consider citing our pa
  booktitle={NeurIPS},
  year={2024}
 }
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 0529523c63022b99605dd4c694a8c87cfdf22d2b
