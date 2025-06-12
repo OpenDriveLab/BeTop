@@ -14,18 +14,19 @@ for Interactive Autonomous Driving </h1>
 </div>
 
 > - [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yu Qiao, Chen Lv and Hongyang Li  
-> - [arXiv paper](https://arxiv.org/abs/2409.18031) | Slides TODO  
+> - [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/a862f5788fd09bb6843c694d8120d50c-Abstract-Conference.html) | [Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/95974.png?t=1731577555.2413552) | [Challenge Report](https://storage.googleapis.com/waymo-uploads/files/research/2025%20Technical%20Reports/2025%20WOD%20Interaction%20Prediction%20Challenge%20-%20Honorable%20Mention%20-%20BeTop-ens.pdf)  
 > - If you have any questions, please feel free to contact: *Haochen Liu* ( haochen002@e.ntu.edu.sg )
 
 <!-- > 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> -->
 
 ---
+**[2025-06]** The ensembled version of BeTop ```BeTop-ens``` has received 3rd place of [2025 WOMD Interaction Prediction Challenge](https://waymo.com/open/challenges/). [Report](https://storage.googleapis.com/waymo-uploads/files/research/2025%20Technical%20Reports/2025%20WOD%20Interaction%20Prediction%20Challenge%20-%20Honorable%20Mention%20-%20BeTop-ens.pdf)
 
 **[2024-11]** Scenario Token released for ```Test14-Inter```. [Link](https://github.com/OpenDriveLab/BeTop/releases/download/nuplan/test14-inter.yaml)
 
 **[2024-11]** Prediction project released.
 
-Full code and checkpoints release is coming soon. Please stay tuned.
+<!-- Full code and checkpoints release is coming soon. Please stay tuned. -->
 
 ## Overview
 
