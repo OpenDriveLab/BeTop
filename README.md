@@ -65,7 +65,7 @@ We provide the full prediction implementation of BeTopNet in Waymo Open Motion D
 
 - [x] Initial release
 - [x] Prediction pipeline in WOMD
-- [ ] Planning pipeline in nuPlan
+- [x] Planning pipeline in nuPlan
 
 ## Citation
 
