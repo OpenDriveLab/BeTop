@@ -1,71 +1,34 @@
-<h1 align="center"> BeTop: Reasoning Multi-Agent Behavioral Topology 
-for Interactive Autonomous Driving </h1> 
+# BeTop_plan
 
-<div align="center">
- 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.18031-479ee2.svg)](https://arxiv.org/abs/2409.18031)
+This folder contains the planning implementation of BeTop in [nuPlan](https://www.nuplan.org/nuplan).
 
-</div>
 
-<div id="top" align="center">
-<p align="center">
-<img src="assets/betop_teaser.png" width="1000px" >
-</p>
-</div>
+## Highlights
 
-> - [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yu Qiao, Chen Lv and Hongyang Li  
-> - [arXiv paper](https://arxiv.org/abs/2409.18031) | Slides TODO  
-> - If you have any questions, please feel free to contact: *Haochen Liu* ( haochen002@e.ntu.edu.sg )
+Our planning pipeline contains the following features:
 
-<!-- > 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> -->
+:white_check_mark: **Flexible Toolbox for planning tasks:**
 
----
+- Training / Eval pipeline.  
+- Scene Renderer: Visualize prediction/planning trajectories.
 
-**[2024-11]** Scenario Token released for ```Test14-Inter```. [Link](https://github.com/OpenDriveLab/BeTop/releases/download/nuplan/test14-inter.yaml)
+:white_check_mark: **Pipeline for popular Baselines:**
 
-**[2024-11]** Prediction project released.
-
-Full code and checkpoints release is coming soon. Please stay tuned.
-
-## Overview
-
-**BeTop**  leverages braid theory to model multi-agent future behaviors in autonomous driving;
-
-<div id="top" align="center">
-<p align="center">
-<img src="assets/betop.png" width="1000px" >
-</p>
-</div>
-
-The synergetic framework, *BeTopNet*, integrates topology reasoning with prediction and planning tasks for autonomous driving.
-
-<div id="top" align="center">
-<p align="center">
-<img src="assets/betopnet.png" width="1000px" >
-</p>
-</div>
+- [PlanTF](https://arxiv.org/pdf/2309.10443.pdf) reproduction.
+- [PDM-Closed](https://arxiv.org/abs/2406.15349) reproduction.
 
 ## Get Started
 
-### Prediction
+**[NOTE]** For non-SSD storage (i.e. NAS), searching recursively across all files could be extremely slow.
 
-We provide the full prediction implementation of BeTopNet in Waymo Open Motion Dataset (WOMD).
+Following [Issues](https://github.com/jchengai/pluto/issues/24), you may load the candidate dirs in ```.csv``` in cached metadata, and modify the ```get_local_scenario_cache``` of ```scenario_builder.py``` inside the nuplan-devkit.
 
-**Features:**
-- :white_check_mark: Full support for WOMD Prediction Challenges  
-- :white_check_mark: Flexible Toolbox for prediction tasks  
-- :white_check_mark: Pipeline for reproduced popular Baselines
 
-**[Guideline](womd/README.md)**
-   - [Data Preparation](/docs/womd/DataPrep_pred.md)
-   - [Training & Evaluation](/docs//womd/TrainEval_pred.md)
-   - [Testing & Submission](/docs//womd/Submission_pred.md)
+You may access the pretrained weights for further tuning: [Link](https://huggingface.co/unknownuser6666/betop)
 
-## TODO List
+- [Installation & Data Preparation](../docs/DataPrep.md)
+- [Training & Evaluation](../docs/TrainEval.md)
 
-- [x] Initial release
-- [x] Prediction pipeline in WOMD
-- [ ] Planning pipeline in nuPlan
 
 ## Citation
 
